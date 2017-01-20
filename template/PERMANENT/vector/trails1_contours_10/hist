@@ -1,0 +1,4 @@
+COMMAND: r.contour --overwrite input="DEM_asheville_flow2@task_flow" output="contours_10" step=10 minlevel=910 cut=0
+GISDBASE: /home/tangible/grassdata
+LOCATION: nc_spm_08_grass7 MAPSET: task_flow USER: tangible DATE: Fri Dec 16 11:17:45 2016
+---------------------------------------------------------------------------------

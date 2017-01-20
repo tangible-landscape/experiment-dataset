@@ -1,0 +1,13 @@
+COMMAND: v.in.ascii input="/home/anna/grassdata/nc_spm_08_grass7_test/task_trails/.tmp/anna-laptop/8973.9" output="AB" format="point" separator="pipe" text="doublequote" skip=0 x=1 y=2 z=0 cat=0
+GISDBASE: /home/anna/grassdata
+LOCATION: nc_spm_08_grass7_test MAPSET: task_trails USER: anna DATE: Wed Jan 11 23:41:56 2017
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+COMMAND: v.db.connect --quiet map="trails2_points@PERMANENT" driver="sqlite" database="/home/anna/Documents/Projects/TL_Roger_experiment/grassdata/nc_spm_process/PERMANENT/sqlite/sqlite.db" table="trails2_points" key="cat" layer="1" separator="pipe"
+GISDBASE: /home/anna/Documents/Projects/TL_Roger_experiment/grassdata
+LOCATION: nc_spm_process MAPSET: PERMANENT USER: anna DATE: Thu Jan 12 22:59:17 2017
+---------------------------------------------------------------------------------
+COMMAND: v.db.addcolumn "--q" "map=trails2_points@PERMANENT" "layer=1" "columns=label varchar (250)"
+GISDBASE: /home/anna/Documents/Projects/TL_Roger_experiment/grassdata
+LOCATION: nc_spm_process MAPSET: PERMANENT USER: anna DATE: Thu Jan 12 22:59:27 2017

@@ -1,0 +1,4 @@
+COMMAND: r.contour input="asheville_DEM_conditioned@task_drain" output="contours_20" step=20 minlevel=660 cut=0
+GISDBASE: /home/tangible/grassdata
+LOCATION: nc_spm_08_grass7 MAPSET: task_drain USER: tangible DATE: Thu Dec 15 10:56:16 2016
+---------------------------------------------------------------------------------

@@ -1,0 +1,9 @@
+COMMAND: r.to.vect --overwrite -t input="streams" output="streams_" type="line" column="value"
+GISDBASE: /home/tangible/grassdata
+LOCATION: template_testing MAPSET: scanning USER: tangible DATE: Wed Jan 18 16:33:41 2017
+---------------------------------------------------------------------------------
+COMMAND: v.generalize --overwrite input="streams_" layer="-1" type="line" output="streams" method="snakes" threshold=10 look_ahead=7 reduction=50 slide=0.5 angle_thresh=3 degree_thresh=0 closeness_thresh=0 betweeness_thresh=0 alpha=1.0 beta=1.0 iterations=1
+GISDBASE: /home/tangible/grassdata
+LOCATION: template_testing MAPSET: scanning USER: tangible DATE: Wed Jan 18 16:34:10 2017
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------

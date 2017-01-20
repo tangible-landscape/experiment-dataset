@@ -1,0 +1,4 @@
+COMMAND: r.contour input="dem_trails@task_trails" output="contours_10" step=10 minlevel=1250 cut=0
+GISDBASE: /home/anna/grassdata
+LOCATION: nc_spm_08_grass7_test MAPSET: task_trails USER: anna DATE: Wed Jan 11 23:02:53 2017
+---------------------------------------------------------------------------------

@@ -1,0 +1,10 @@
+COMMAND: v.edit map="road" layer="1" type="point,line,boundary,centroid" tool="create" threshold=-1,0,0 snap="no"
+GISDBASE: /home/anna/Documents/Projects/TL_Roger_experiment/grassdata
+LOCATION: nc_spm_process MAPSET: transfer USER: anna DATE: Tue Jan 17 21:52:52 2017
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+COMMAND: v.generalize --overwrite input="road" layer="-1" type="line" output="road_gne" method="chaiken" threshold=20 look_ahead=7 reduction=50 slide=0.5 angle_thresh=3 degree_thresh=0 closeness_thresh=0 betweeness_thresh=0 alpha=1.0 beta=1.0 iterations=1
+GISDBASE: /home/anna/Documents/Projects/TL_Roger_experiment/grassdata
+LOCATION: nc_spm_process MAPSET: transfer USER: anna DATE: Wed Jan 18 09:39:40 2017
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------

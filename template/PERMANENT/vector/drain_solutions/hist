@@ -1,0 +1,4 @@
+COMMAND: v.in.ascii --overwrite -t input="/home/tangible/Rogers_experiment/task_drain/outlets_solution.txt" output="task_drain_solutions" format="point" separator="space" text="doublequote" skip=0 x=4 y=5 z=0 cat=1
+GISDBASE: /home/tangible/grassdata
+LOCATION: nc_spm_08_grass7 MAPSET: task_drain USER: tangible DATE: Thu Dec 15 13:10:25 2016
+---------------------------------------------------------------------------------

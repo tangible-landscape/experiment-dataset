@@ -1,0 +1,4 @@
+COMMAND: r.contour input="after@task_diff" output="after_cont05" step=0.5 minlevel=88 cut=0
+GISDBASE: /home/tangible/grassdata
+LOCATION: nc_spm_08_grass7 MAPSET: task_diff USER: tangible DATE: Tue Dec 20 12:33:49 2016
+---------------------------------------------------------------------------------

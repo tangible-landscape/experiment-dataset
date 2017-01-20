@@ -1,0 +1,8 @@
+COMMAND: v.in.ascii input="/home/tangible/grassdata/nc_spm_08_grass7/task_flow/.tmp/tl/17163.4" output="target" format="point" separator="pipe" text="doublequote" skip=0 x=1 y=2 z=0 cat=0
+GISDBASE: /home/tangible/grassdata
+LOCATION: nc_spm_08_grass7 MAPSET: task_flow USER: tangible DATE: Fri Dec 16 14:21:14 2016
+---------------------------------------------------------------------------------
+COMMAND: v.buffer --overwrite input="target" layer="-1" type="point,line,area" output="target_buffer" distance=120 angle=0 scale=1.0 tolerance=0.01
+GISDBASE: /home/tangible/grassdata
+LOCATION: nc_spm_08_grass7 MAPSET: task_flow USER: tangible DATE: Fri Dec 16 14:23:02 2016
+---------------------------------------------------------------------------------

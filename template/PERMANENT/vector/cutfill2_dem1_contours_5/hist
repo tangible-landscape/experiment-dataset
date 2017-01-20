@@ -1,0 +1,4 @@
+COMMAND: r.contour --overwrite input="interp_after" output="cont_after_5" step=5 minlevel=85 cut=0
+GISDBASE: /home/tangible/grassdata
+LOCATION: nc_spm_08_grass7 MAPSET: task_diff2 USER: tangible DATE: Wed Dec 21 11:18:40 2016
+---------------------------------------------------------------------------------

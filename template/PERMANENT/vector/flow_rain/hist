@@ -1,0 +1,5 @@
+COMMAND: v.edit map="rain" layer="1" type="point,line,boundary,centroid" tool="create" threshold=-1,0,0 snap="no"
+GISDBASE: /home/tangible/grassdata
+LOCATION: nc_spm_08_grass7 MAPSET: task_flow USER: tangible DATE: Fri Dec 16 13:56:21 2016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
