@@ -1,0 +1,4 @@
+COMMAND: r.contour input="tt_cutfill1_dem1@PERMANENT" output="tt_cutfill1_dem1_contours_10" step=10 minlevel=100 cut=0
+GISDBASE: /home/tangible/grassdata/
+LOCATION: tt_diff MAPSET: scanning USER: tangible DATE: Mon Feb 20 10:44:42 2017
+---------------------------------------------------------------------------------
