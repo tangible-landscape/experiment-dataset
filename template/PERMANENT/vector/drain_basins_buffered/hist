@@ -1,0 +1,7 @@
+COMMAND: r.to.vect --overwrite -v -t input="basins@task_drain" output="basins@task_drain" type="area" column="value"
+GISDBASE: /home/tangible/grassdata/
+LOCATION: nc_spm_08_grass7 MAPSET: task_drain USER: tangible DATE: Thu Mar  9 16:18:09 2017
+---------------------------------------------------------------------------------
+COMMAND: v.buffer --overwrite -t input="basins@task_drain" layer="-1" type="point,line,area" output="basins_buffer" distance=100 angle=0 scale=1.0 tolerance=0.01
+GISDBASE: /home/tangible/grassdata/
+LOCATION: nc_spm_08_grass7 MAPSET: task_drain USER: tangible DATE: Thu Mar  9 16:18:38 2017
