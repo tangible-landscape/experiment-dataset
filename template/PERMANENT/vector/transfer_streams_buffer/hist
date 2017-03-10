@@ -1,0 +1,14 @@
+COMMAND: r.to.vect --overwrite -t input="streams" output="streams_" type="line" column="value"
+GISDBASE: /home/tangible/grassdata
+LOCATION: template_testing MAPSET: scanning USER: tangible DATE: Wed Jan 18 16:33:41 2017
+---------------------------------------------------------------------------------
+COMMAND: v.generalize --overwrite input="streams_" layer="-1" type="line" output="streams" method="snakes" threshold=10 look_ahead=7 reduction=50 slide=0.5 angle_thresh=3 degree_thresh=0 closeness_thresh=0 betweeness_thresh=0 alpha=1.0 beta=1.0 iterations=1
+GISDBASE: /home/tangible/grassdata
+LOCATION: template_testing MAPSET: scanning USER: tangible DATE: Wed Jan 18 16:34:10 2017
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+COMMAND: v.buffer --overwrite input="transfer_streams@PERMANENT" layer="-1" type="point,line,area" output="transfer_streams_buffer" distance=70 angle=0 scale=1.0 tolerance=0.01
+GISDBASE: /home/tangible/Rogers_experiment/experiment-dataset
+LOCATION: template MAPSET: PERMANENT USER: tangible DATE: Fri Mar 10 16:43:24 2017
