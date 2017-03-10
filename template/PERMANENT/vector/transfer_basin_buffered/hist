@@ -1,0 +1,7 @@
+COMMAND: r.to.vect -s -t input="outlet@PERMANENT" output="transfer_basin" type="area" column="value"
+GISDBASE: /home/tangible/Rogers_experiment/experiment-dataset
+LOCATION: template MAPSET: PERMANENT USER: tangible DATE: Fri Mar 10 18:15:57 2017
+---------------------------------------------------------------------------------
+COMMAND: v.buffer --overwrite input="transfer_basin@PERMANENT" layer="-1" type="point,line,area" output="transfer_basin_buffered" distance=30 angle=0 scale=1.0 tolerance=0.01
+GISDBASE: /home/tangible/Rogers_experiment/experiment-dataset
+LOCATION: template MAPSET: PERMANENT USER: tangible DATE: Fri Mar 10 18:17:13 2017
