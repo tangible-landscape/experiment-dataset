@@ -1,0 +1,12 @@
+COMMAND: v.edit map="freeplay_AB" layer="1" type="point,line,boundary,centroid" tool="create" threshold=-1,0,0 snap="no"
+GISDBASE: /home/tangible/Rogers_experiment/experiment-dataset
+LOCATION: template MAPSET: PERMANENT USER: tangible DATE: Mon Mar 20 11:15:10 2017
+---------------------------------------------------------------------------------
+COMMAND: v.db.connect --quiet map="freeplay_AB" driver="sqlite" database="$GISDBASE/$LOCATION_NAME/$MAPSET/sqlite/sqlite.db" table="freeplay_AB" key="cat" layer="1" separator="pipe"
+GISDBASE: /home/tangible/Rogers_experiment/experiment-dataset
+LOCATION: template MAPSET: PERMANENT USER: tangible DATE: Mon Mar 20 11:15:10 2017
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+COMMAND: v.db.addcolumn "--q" "map=freeplay_AB@PERMANENT" "layer=1" "columns=label varchar (250)"
+GISDBASE: /home/tangible/Rogers_experiment/experiment-dataset
+LOCATION: template MAPSET: PERMANENT USER: tangible DATE: Mon Mar 20 11:15:17 2017

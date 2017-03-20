@@ -2,3 +2,11 @@ COMMAND: v.in.ascii --overwrite -t input="/home/tangible/Rogers_experiment/task_
 GISDBASE: /home/tangible/grassdata
 LOCATION: nc_spm_08_grass7 MAPSET: task_drain USER: tangible DATE: Thu Dec 15 13:10:25 2016
 ---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+COMMAND: v.db.connect --quiet map="drain_solutions@PERMANENT" driver="sqlite" database="/home/tangible/Rogers_experiment/experiment-dataset/template/PERMANENT/sqlite/sqlite.db" table="drain_solutions" key="cat" layer="1" separator="pipe"
+GISDBASE: /home/tangible/Rogers_experiment/experiment-dataset
+LOCATION: template MAPSET: PERMANENT USER: tangible DATE: Mon Mar 20 11:35:03 2017
+---------------------------------------------------------------------------------
+COMMAND: v.db.addcolumn "--q" "map=drain_solutions@PERMANENT" "layer=1" "columns=label varchar (250)"
+GISDBASE: /home/tangible/Rogers_experiment/experiment-dataset
+LOCATION: template MAPSET: PERMANENT USER: tangible DATE: Mon Mar 20 11:35:15 2017
