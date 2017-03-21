@@ -1,4 +1,21 @@
-COMMAND: v.in.ascii input="/home/tangible/grassdata/nc_spm_08_grass7/task_flow/.tmp/tl/17163.4" output="target" format="point" separator="pipe" text="doublequote" skip=0 x=1 y=2 z=0 cat=0
-GISDBASE: /home/tangible/grassdata
-LOCATION: nc_spm_08_grass7 MAPSET: task_flow USER: tangible DATE: Fri Dec 16 14:21:14 2016
+COMMAND: v.in.ascii input="/home/anna/Documents/Projects/TL_Roger_experiment/grassdata/nc_spm_process/PERMANENT/.tmp/anna-laptop/20940.3" output="trails1_points" format="point" separator="pipe" text="doublequote" skip=0 x=1 y=2 z=0 cat=0
+GISDBASE: /home/anna/Documents/Projects/TL_Roger_experiment/grassdata
+LOCATION: nc_spm_process MAPSET: PERMANENT USER: anna DATE: Thu Jan 12 23:28:45 2017
 ---------------------------------------------------------------------------------
+COMMAND: v.db.connect --quiet map="trails1_points@PERMANENT" driver="sqlite" database="/home/anna/Documents/Projects/TL_Roger_experiment/grassdata/nc_spm_process/PERMANENT/sqlite/sqlite.db" table="trails1_points" key="cat" layer="1" separator="pipe"
+GISDBASE: /home/anna/Documents/Projects/TL_Roger_experiment/grassdata
+LOCATION: nc_spm_process MAPSET: PERMANENT USER: anna DATE: Thu Jan 12 23:29:05 2017
+---------------------------------------------------------------------------------
+COMMAND: v.db.addcolumn "--q" "map=trails1_points@PERMANENT" "layer=1" "columns=label varchar (250)"
+GISDBASE: /home/anna/Documents/Projects/TL_Roger_experiment/grassdata
+LOCATION: nc_spm_process MAPSET: PERMANENT USER: anna DATE: Thu Jan 12 23:29:16 2017
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+COMMAND: v.db.connect --quiet -o map="flow_target" driver="sqlite" database="$GISDBASE/$LOCATION_NAME/$MAPSET/sqlite/sqlite.db" table="flow_target" key="cat" layer="1" separator="pipe"
+GISDBASE: /home/smartlab/dev/experiment-dataset
+LOCATION: template MAPSET: PERMANENT USER: smartlab DATE: Tue Mar 21 15:03:19 2017
