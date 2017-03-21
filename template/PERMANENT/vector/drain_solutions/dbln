@@ -1,1 +1,1 @@
-1/drain_solutions|drain_solutions|cat|/home/tangible/Rogers_experiment/experiment-dataset/template/PERMANENT/sqlite/sqlite.db|sqlite
+1/drain_solutions|drain_solutions|cat|$GISDBASE/$LOCATION_NAME/$MAPSET/sqlite/sqlite.db|sqlite
