@@ -1,11 +1,11 @@
 proj:       99
 zone:       0
-north:      227410
-south:      225060
-east:       309530
-west:       307180
-cols:       1175
-rows:       1175
+north:      227396
+south:      225076
+east:       309514
+west:       307194
+cols:       1160
+rows:       1160
 e-w resol:  2
 n-s resol:  2
 format:     0
